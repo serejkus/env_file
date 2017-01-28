@@ -2,6 +2,13 @@
 name = "env_file"
 version = "0.1.0"
 authors = ["Sergey Elantsev <elantsev.s@yandex.ru>"]
+license = "MIT"
+repository = "https://github.com/serejkus/env_file"
+homepage = "https://github.com/serejkus/env_file"
+description = """
+Reading files with name taken from environment variable
+"""
+keywords = ["env", "file"]
 
 [dependencies]
 rand = "0.3"
