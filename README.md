@@ -17,6 +17,21 @@ The same pattern simplifies testing (with test keys and not production ones). It
 too: you may have a default location for production use with ability to override it via
 environment variables.
 
+# Usage
+
+Add this to your `Cargo.toml`:
+
+```toml
+[dependencies]
+env_file = "0.1"
+```
+
+and this to your crate root:
+
+```rust
+extern crate env_file;
+```
+
 # Example
 
 ```(rust)
