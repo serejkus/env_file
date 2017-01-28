@@ -5,7 +5,7 @@
 //! variables. Say, you have to use cloud provider API key to control your PaaS system and you need
 //! a key for external data API. You can then run your application like:
 //!
-//! ```
+//! ```ignore
 //! $ CLOUD_API_KEY=/etc/secrets/cloud_api.key DATA_API_KEY=/etc/secrets/data_api.key your_app
 //! ```
 //!
@@ -73,10 +73,10 @@ impl error::Error for EnvFileError {
 ///
 /// # Examples
 ///
-/// ```
+/// ```rust,no_run
 /// extern crate env_file;
 ///
-/// let api_key = read("CLOUD_API_KEY").unwrap_or("default_key".to_string());
+/// let api_key = env_file::read("CLOUD_API_KEY").unwrap_or("default_key".to_string());
 /// ```
 pub fn read(env_name: &str) -> Result<String, EnvFileError> {
     let filename = try!(env::var(env_name));
