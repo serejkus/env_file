@@ -34,7 +34,7 @@ extern crate env_file;
 
 # Example
 
-```(rust)
+```rust
 extern crate env_file;
 
 let api_key = read("CLOUD_API_KEY").unwrap_or("default_key".to_string());
