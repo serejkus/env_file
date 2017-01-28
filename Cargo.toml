@@ -1,6 +1,6 @@
 [package]
 name = "env_file"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Sergey Elantsev <elantsev.s@yandex.ru>"]
 license = "MIT"
 repository = "https://github.com/serejkus/env_file"
