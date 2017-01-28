@@ -1,0 +1,7 @@
+[package]
+name = "env_file"
+version = "0.1.0"
+authors = ["Sergey Elantsev <elantsev.s@yandex.ru>"]
+
+[dependencies]
+rand = "0.3"
