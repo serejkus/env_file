@@ -1,5 +1,7 @@
 This crate helps to read contents of a file with name taken from environment variable.
 
+[![Build Status](https://travis-ci.org/serejkus/env_file.svg?branch=master)](https://travis-ci.org/serejkus/env_file)
+
 # Reading files with name taken from environment variable
 
 Some applications have sensitive data, like API keys, which is unsafe to keep in VCS. One
