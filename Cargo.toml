@@ -5,6 +5,7 @@ authors = ["Sergey Elantsev <elantsev.s@yandex.ru>"]
 license = "MIT"
 repository = "https://github.com/serejkus/env_file"
 homepage = "https://github.com/serejkus/env_file"
+documentation = "https://docs.rs/env_file/"
 description = """
 Reading files with name taken from environment variable
 """
