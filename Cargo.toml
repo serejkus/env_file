@@ -1,6 +1,6 @@
 [package]
 name = "env_file"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Sergey Elantsev <elantsev.s@yandex.ru>"]
 license = "MIT"
 repository = "https://github.com/serejkus/env_file"
@@ -10,5 +10,8 @@ Reading files with name taken from environment variable
 """
 keywords = ["env", "file"]
 
-[dependencies]
+[dev-dependencies]
 rand = "0.3"
+
+[badges]
+travis-ci = { repository = "serejkus/env_file" }
